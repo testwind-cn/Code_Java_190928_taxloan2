@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31a77cf7-0561-42dd-a76a-d4b2de04badf" name="Default Changelist" comment="" />
+    <list default="true" id="31a77cf7-0561-42dd-a76a-d4b2de04badf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/sql/Const_Common/insert_control_table_statistics_month.sql" beforeDir="false" afterPath="$PROJECT_DIR$/res/sql/Const_Common/insert_control_table_statistics_month.sql" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,6 +246,7 @@
       <workItem from="1568882953401" duration="137743000" />
       <workItem from="1569645735288" duration="1750000" />
       <workItem from="1569671450853" duration="3004000" />
+      <workItem from="1569709403522" duration="672000" />
     </task>
     <servers />
   </component>
