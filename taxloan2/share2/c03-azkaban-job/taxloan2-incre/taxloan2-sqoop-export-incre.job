@@ -1,0 +1,4 @@
+type=command
+
+command=sh taxloan2-sqoop-export-incre.sh
+dependencies=taxloan2-spark-submit-incre

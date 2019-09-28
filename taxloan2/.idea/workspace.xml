@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="taxloan2:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31a77cf7-0561-42dd-a76a-d4b2de04badf" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apache Hive - dm_taxloan2@10.2.206.18" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apache Hive - dm_taxloan2@10.2.206.18" type="feb32156:DbDataSourceImpl" />
+        <item name="dm_taxloan2: schema" type="31331dd0:HiveImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="Apache Hive - dm_taxloan2@10.2.206.18" type="feb32156:DbDataSourceImpl" />
+        <item name="dm_taxloan2: schema" type="31331dd0:HiveImplModel$Schema" />
+        <item name="cjlog: table" type="1da66f9e:HiveImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="ec4407ca-866e-4bc4-a21e-71bd543862ea" />
+    </checked>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Scala Object" />
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Tools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1QweVtQlZwP0uq4fhtnGykBZGZj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="hive" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33184657" />
+    <property name="settings.editor.selected.configurable" value="database.main" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan2\res\wjsql\Const_DDL" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan2\res\wjsql\Const_Common" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\res\wjsql\Const_statistics_month" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\res\wjsql\Const_statistics_crossmonth" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\res\wjsql\Const_mcht_full" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="taxloan2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan2\res\sql\Const_mcht_incre" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan2" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\res\wjsql\Const_Common" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\res\wjsql\Const_mcht_full" />
+      <recent name="D:\git-workspace\no-git\SparkTestPkg\taxloan_2.0\share\c03-azkaban-job\taxloan-month" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.test">
+    <configuration name="taxloan2_full" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="taxloan2.taxloan" />
+      <module name="taxloan2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="taxloan2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taxloan_full" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.taxloan.taxloan_full" />
+      <module name="taxloan_2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.taxloan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taxloan_incre" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.taxloan.taxloan_incre" />
+      <module name="taxloan_2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.taxloan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="taxloan_month" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="src.taxloan.taxloan_month" />
+      <module name="taxloan_2.0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.taxloan.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="test.test" />
+      <module name="taxloan2" />
+      <option name="PROGRAM_PARAMETERS" value="--full -a -b=123 --fulla --full -c '123' --d='345' --e'12   34' --f &quot;e   rer&quot; --g3424 --h&quot;\&quot;  ' \' ss\\  &quot;  --g3424\\ --i&quot;\\&quot;&quot;" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.taxloan2_full" />
+      <item itemvalue="Application.taxloan_full" />
+      <item itemvalue="Application.taxloan_incre" />
+      <item itemvalue="Application.taxloan_month" />
+      <item itemvalue="Application.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.taxloan2_full" />
+        <item itemvalue="Application.taxloan_month" />
+        <item itemvalue="Application.taxloan_incre" />
+        <item itemvalue="Application.taxloan_full" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c559a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@51c559a1" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@7e19ca91" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31a77cf7-0561-42dd-a76a-d4b2de04badf" name="Default Changelist" comment="" />
+      <created>1568686112519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568686112519</updated>
+      <workItem from="1568686121378" duration="5884000" />
+      <workItem from="1568695183032" duration="80082000" />
+      <workItem from="1568882953401" duration="137743000" />
+      <workItem from="1569645735288" duration="1750000" />
+      <workItem from="1569671450853" duration="3004000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../taxloan_2.0/src/com/wj/tools/loadString.scala</url>
+          <line>94</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../taxloan_2.0/src/com/wj/tools/loadString.scala</url>
+          <line>61</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../taxloan_2.0/src/com/wj/tools/loadString.scala</url>
+          <line>58</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/../taxloan_2.0/src/taxloan2/taxloan_full.scala</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/com/plj/scala/tools/loadString.scala</url>
+          <line>122</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/test.scala</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/test.scala</url>
+          <line>16</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/test/test.scala</url>
+          <line>12</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="lines.split(&quot;\n&quot;)" language="Scala" />
+        <watch expression="the_opt.size" language="Scala" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

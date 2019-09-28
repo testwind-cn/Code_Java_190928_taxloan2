@@ -1,0 +1,4 @@
+type=command
+
+command=sh taxloan-sqoop-export-incre.sh
+dependencies=taxloan-spark-submit-month

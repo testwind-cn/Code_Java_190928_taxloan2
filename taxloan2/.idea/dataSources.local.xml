@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Apache Hive - dm_taxloan2@10.2.206.18" uuid="ec4407ca-866e-4bc4-a21e-71bd543862ea">
+      <database-info product="Apache Hive" version="1.1.0-cdh5.13.0" jdbc-version="3.0" driver-name="Hive JDBC" driver-version="1.1.0-cdh5.13.0" dbms="HIVE" exact-version="1.1.0" exact-driver-version="1.1" />
+      <secret-storage>master_key</secret-storage>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

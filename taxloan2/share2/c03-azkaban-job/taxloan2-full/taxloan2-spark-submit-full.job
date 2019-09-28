@@ -1,0 +1,4 @@
+type=command
+
+command=sudo -E -u hdfs sh taxloan2-spark-submit-full.sh
+dependencies=taxloan2_sqoop_to_hive

@@ -1,0 +1,3 @@
+type=command
+
+command=sh taxloan2_sqoop_to_hive.sh
