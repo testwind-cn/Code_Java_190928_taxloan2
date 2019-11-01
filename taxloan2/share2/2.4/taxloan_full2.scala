@@ -56,8 +56,8 @@ object taxloan_full2 {
     println(Const_Common.truncate_cjlog_tmp)
     hc.sql(Const_Common.truncate_cjlog_tmp).show(10)
 
-    println(Const_mcht_full.insert_cjlog_tmp)
-    hc.sql(Const_mcht_full.insert_cjlog_tmp).show(10)
+    println(Const_mcht_full_incre.insert_cjlog_tmp_full)
+    hc.sql(Const_mcht_full_incre.insert_cjlog_tmp_full).show(10)
 
 
 
@@ -65,16 +65,16 @@ object taxloan_full2 {
     println(Const_Common.truncate_saleinvoice_tmp1)
     hc.sql(Const_Common.truncate_saleinvoice_tmp1).show(10)
 
-    println(Const_mcht_full.insert_saleinvoice_tmp1)
-    hc.sql(Const_mcht_full.insert_saleinvoice_tmp1).show(10)
+    println(Const_mcht_full_incre.insert_saleinvoice_tmp1_full)
+    hc.sql(Const_mcht_full_incre.insert_saleinvoice_tmp1_full).show(10)
 
 
     //    Const_Common.create_saleinvoice_tmp2.sql
     println(Const_Common.truncate_saleinvoice_tmp2)
     hc.sql(Const_Common.truncate_saleinvoice_tmp2).show(10)
 
-    println(Const_mcht_full.insert_saleinvoice_tmp2)
-    hc.sql(Const_mcht_full.insert_saleinvoice_tmp2).show(10)
+    println(Const_mcht_full_incre.insert_saleinvoice_tmp2_full)
+    hc.sql(Const_mcht_full_incre.insert_saleinvoice_tmp2_full).show(10)
 
 
 
@@ -82,8 +82,8 @@ object taxloan_full2 {
     println(Const_Common.truncate_saleinvoice_tmp)
     hc.sql(Const_Common.truncate_saleinvoice_tmp).show(10)
 
-    println(Const_mcht_full.insert_saleinvoice_tmp)
-    hc.sql(Const_mcht_full.insert_saleinvoice_tmp).show(10)
+    println(Const_mcht_full_incre.insert_saleinvoice_tmp)
+    hc.sql(Const_mcht_full_incre.insert_saleinvoice_tmp).show(10)
 
 
     println("=========  插入saleinvoice_tmp成功  =========")
@@ -94,8 +94,8 @@ object taxloan_full2 {
     println(Const_Common.truncate_mcht_tax)
     hc.sql(Const_Common.truncate_mcht_tax).show(10)
 
-    println(Const_mcht_full.insert_mcht_tax)
-    hc.sql(Const_mcht_full.insert_mcht_tax).show(10)
+    println(Const_mcht_full_incre.insert_mcht_tax)
+    hc.sql(Const_mcht_full_incre.insert_mcht_tax).show(10)
 
     /*****************************************交易对手表********************************************/
 
@@ -130,8 +130,8 @@ object taxloan_full2 {
     println(Const_Common.truncate_cross_month_tmp)
     hc.sql(Const_Common.truncate_cross_month_tmp).show(10)
 
-    println(Const_mcht_full.insert_cross_month_tmp)
-    hc.sql(Const_mcht_full.insert_cross_month_tmp).show(10)
+    println(Const_mcht_full_incre.insert_cross_month_tmp_full)
+    hc.sql(Const_mcht_full_incre.insert_cross_month_tmp_full).show(10)
 
 
 

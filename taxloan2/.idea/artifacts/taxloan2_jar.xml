@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/taxloan2_jar</output-path>
     <root id="archive" name="taxloan2.jar">
       <element id="module-output" name="taxloan2" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/share2/lib/plj_tools.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

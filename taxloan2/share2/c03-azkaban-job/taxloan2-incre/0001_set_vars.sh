@@ -11,7 +11,7 @@ then        # 10.91.1.100
 
     IP="172.31.100.202"
     PORT="3306"
-    MYSQL_DB="data_warehouse2"
+    MYSQL_DB="data_warehouse"
     URL="jdbc:mysql://${IP}:${PORT}/${MYSQL_DB}"
     USER="datauser"
     PASS_F="/user/hive/warehouse/mysql_pwd_202"
@@ -25,7 +25,7 @@ else        # 10.91.1.21
 
     IP="10.91.1.19"
     PORT="3306"
-    MYSQL_DB="data_warehouse2"
+    MYSQL_DB="data_warehouse"
     URL="jdbc:mysql://${IP}:${PORT}/${MYSQL_DB}"
     USER="root"
     PASS_F="/user/hive/warehouse/mysql_pwd_202"

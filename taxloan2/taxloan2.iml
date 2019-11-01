@@ -10,5 +10,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="spark-assembly-1.6.0-hadoop2.6.0" level="application" />
     <orderEntry type="library" name="scala-sdk-2.10.5" level="application" />
+    <orderEntry type="library" name="plj_tools" level="project" />
   </component>
 </module>

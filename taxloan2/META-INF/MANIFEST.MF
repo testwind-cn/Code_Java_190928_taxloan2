@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: lib/plj_tools.jar taxloan2.jar
+Main-Class: test.test
+

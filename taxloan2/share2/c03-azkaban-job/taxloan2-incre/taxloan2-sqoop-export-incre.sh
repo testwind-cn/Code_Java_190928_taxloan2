@@ -8,7 +8,7 @@ source /etc/profile
 source /var/lib/hadoop-hdfs/.bash_profile
 
 CURR_DATE=`date +%Y-%m-%d`
-HIVE_DB="dm_taxloan"
+HIVE_DB="dm_taxloan2"
 
 #IP="10.91.1.10"
 #PORT="3306"
@@ -28,6 +28,10 @@ URL="jdbc:mysql://${IP}:${PORT}/${MYSQL_DB}"
 
 source ./0001_set_vars.sh
 
+sed  's/${MYSQL_DB}'"/${MYSQL_DB}/g" sql_before.sql | cat
+echo -e "\n=========== MYSQL BEGIN ===========\n"
+sed  's/${MYSQL_DB}'"/${MYSQL_DB}/g" sql_before.sql | mysql -u"${USER}" -p"${PASS_S}" -h"${IP}" -P"${PORT}"
+echo "=========== MYSQL OK ==========="
 
 ### e0502 counterparty
 #mysql -u"$USER" -p"${PASS_S}" -h"${IP}" -P"${PORT}" -e "TRUNCATE TABLE ${MYSQL_DB}.counterparty;COMMIT;"
@@ -109,8 +113,22 @@ sqoop export \
 --table mcht_tax \
 --columns="mcht_cd,mcht_name,mcht_tax_cd,mcht_addtel,mcht_bankno,first_invoicedate,initial_get_flag,is_delete,create_time,create_user,modify_time,modify_user"
 
-	
-	
-	
-	
+
+### e0506 saleinvoice
+# mysql -u"${USER}" -p"${PASS_S}" -h"${IP}" -P"${PORT}" -e "TRUNCATE TABLE ${MYSQL_DB}.saleinvoice;COMMIT;"
+# sqoop export \
+# --hcatalog-database ${HIVE_DB} \
+# --hcatalog-table saleinvoice \
+# --connect ${URL} \
+# --username ${USER} \
+# --password "${PASS_S}" \
+# --m 10 \
+# --table saleinvoice_hive \
+# --columns="cid,agentcode,authstate,authtime,authusername,batchid,billid,billno,buyeraddtel,buyerbankno,buyername,buyerno,buyertaxno,cancelflag,carriertaxno,cd,checkcode,checkresult,checkstate,checktime,ciphertext,cjhm,comments,confirmstate,createtime,detaillistflag,email,encryptionver,fdjhm,fhrsbh,forwordstate,forwordtime,gatheringperson,hgzh,imgstate,incomingstate,incomingtime,incomingusername,inputperson,invoicecode,invoicecontent,invoicedate,invoiceid,invoiceno,invoicetype,jztype,kpzdbs,logno,machineno,makeinvoicedeviceno,makeinvoiceperson,mobileno,pdfurl,printflag,pushstate,pushtime,qyd,recheckperson,repairflag,responecode,responeexplain,salebillno,selleraddtel,sellerbankno,sellername,sellertaxno,senterrtimes,sentoperator,senttime,senttobank,shrsbh,sktype,source,spsm,srctype,taxofficecode,taxrate,totalamount,totaltax,writebackstate,writebacktime,xcrs,xfdh,xfdz,yshwxx,yyzzh,zh,zyspmc"
+
+sed  's/${MYSQL_DB}'"/${MYSQL_DB}/g" sql_after.sql | cat
+echo -e "\n=========== MYSQL BEGIN ===========\n"
+sed  's/${MYSQL_DB}'"/${MYSQL_DB}/g" sql_after.sql | mysql -u"${USER}" -p"${PASS_S}" -h"${IP}" -P"${PORT}"
+echo "=========== MYSQL OK ==========="
+
 

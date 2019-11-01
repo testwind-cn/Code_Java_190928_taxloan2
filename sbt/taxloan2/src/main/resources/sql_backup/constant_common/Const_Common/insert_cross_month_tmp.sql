@@ -1,0 +1,1 @@
+insert into dm_taxloan.cross_month_tmp select * from cross_month_tmp

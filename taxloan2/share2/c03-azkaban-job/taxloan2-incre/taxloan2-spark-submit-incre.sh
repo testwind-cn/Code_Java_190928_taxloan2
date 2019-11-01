@@ -9,7 +9,7 @@
 
 
 JDBC_HOME="${JAVA_HOME}/jre/lib/ext/mysql-connector-java-5.1.44-bin.jar"
-JAR_PATH=/submit/shells/taxloan2/taxloan2.jar
+JAR_PATH=/data/taxloan/scripts/taxloan2.jar
 NUM_EXE=15
 EXE_CORE=4
 EXE_MEM="16G"

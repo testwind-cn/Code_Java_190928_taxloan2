@@ -3,3 +3,5 @@
 out/
 .idea/workspace.xml
 /taxloan2/.idea/workspace.xml
+target/
+classes/
