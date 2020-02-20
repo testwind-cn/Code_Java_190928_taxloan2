@@ -1,3 +1,0 @@
-
-
-TRUNCATE TABLE dm_taxloan.counterparty_classify
