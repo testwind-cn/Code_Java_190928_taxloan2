@@ -1,6 +1,6 @@
 package taxloan2.Const
 
-import com.plj.scala.tools.loadString
+import com.plj.tools.scala.loadString
 
 object Const_DDL {
 
